@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+    
+}
+div{
+    background-color: chartreuse;
+    min-width: 100px;
+    border: 1px solid tomato;
+
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>container</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <!-- basic defference of container VS Cintainer_fluid -->
+    <h1>fixed container</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">A</div>
+            <div class="col-3">B</div>
+            <div class="col-3">C</div>
+            <div class="col-3">D</div>
+        </div>
+    </div>
+    <br>
+        <h1>container-fluid</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- this is for nested column -->
+            <div class="col-4"> 
+                <div class="row">
+                    <div class="col-4">AA</div>
+                    <div class="col-4">BB</div>
+                    <div class="col-4">cc</div>
+                </div>
+            </div>
+            <div class="col-6">B</div>
+            <div class="col-2">C</div>
+           
+        </div>
+        
+    </div>
+    <br>
+    <h1>offsets Class pratice</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 offset-2">offset-2</div>
+            <div class="col-lg-4 offset-lg-4">offsets-4</div>
+            <div class="col-lg-4 offset-7">offset-7</div>
+        </div>
+    </div>
+    
+</body>
+</html>
